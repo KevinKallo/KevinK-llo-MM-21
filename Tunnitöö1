@@ -5,3 +5,12 @@ if (rahakott >= tootehind)
 else
     console.log("Ei saa osta");
 
+rahakott = Math.random()*50;
+tootehind = 12;
+if (rahakott >= tootehind)
+    console.log("Saad osta");
+else
+    console.log("Ei saa osta");
+    console.log(rahakott-tootehind)
+
+if (tootehind < rahakott) "Osta toode" ; else "Küsiraha juurde";
