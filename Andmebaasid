@@ -6,10 +6,22 @@ tahame teada kas ta on maksnud
 Mida klient tahab
 Tooted ja laoseis
 
+product fields: Toode, kogus, hind
+product (field, attributes, properties, column)
+Olemid (Entity) näiteks toode ja tellimus
 
-Marco - 100 
-Kell - 10 
-Laud - 20 
-Tool - 30 
-Suur monitor - 60 
-Väike monitor - 40 
+Dokument andmebaas
+TOODE           KOGUS     HIND        VÄRV          TELLIMUSED                   TELLIMUSE HIND KOKKU
+Marco           1         100 eurot   beež          Tiiu (1 beež Marco)          100 eurot
+Kell            1         5 eurot     valge   
+Laud            7         20 eurot    hele pruun    Mati (3 hele pruuni lauda)   60 eurot
+Tool            36        15 eurot    hele pruun
+Väike monitor   36        25 eurot    hall  
+Televiisor      4         40 eurot    must  
+aknad           3         50 eurot    valged
+klaviatuur      36        8 eurot     must
+arvuti hiired   36        5 eurot     must
+seinad          4         90 eurot    valged
+uks             1         85 eurot    pruun       
+link            1         6 eurot     hõbe
+
