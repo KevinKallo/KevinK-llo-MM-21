@@ -59,16 +59,19 @@ let summa = function () {
   21-40 on paras temperatuur
   41-60 on liiga külm
 /*
-function checkTemp () {
-let temp = Math.random()*50;
+function checkTemp(temp) {
+    console.log("Temp on "+temp)
 
-if ( temp >= 21 && temp <= 40 ); {
-    console.log("Soe");
-} if ( temp > 0 && temp <= 20 ); {
-    console.log("Külm");
-} else if (temp > 40 ); {
+if ( temp >= 21 && temp <= 40 ) {
+    console.log("Paras");
+
+} if ( temp > 0 && temp <= 20 ) {
+    console.log("Liiga külm");
+
+} else if ( temp > 40 && temp < 60) 
     console.log("Liiga soe");
-}
+
 
 }
+käivitamiseks checkTemp(mingi number)
 
