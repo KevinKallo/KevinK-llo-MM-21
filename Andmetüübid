@@ -60,6 +60,15 @@ let summa = function () {
   41-60 on liiga külm
 /*
 function checkTemp () {
-  let temp = 5;
+let temp = Math.random()*50;
+
+if ( temp >= 21 && temp <= 40 ); {
+    console.log("Soe");
+} if ( temp > 0 && temp <= 20 ); {
+    console.log("Külm");
+} else if (temp > 40 ); {
+    console.log("Liiga soe");
+}
+
 }
 
