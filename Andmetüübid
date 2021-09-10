@@ -1,6 +1,65 @@
 String number boolean object    tüüp type
 
+// ctrl + K ctrl +  C  comment 
+// ctrl + K ctrl + U
+
 if else  conditional
 {
 
 }
+
+// Object on tüüp mis salvestab key-value paare.
+// key: value
+let töötaja = { nimi: "Peeter", palk: 10}
+let töötaja2 = {
+  nimi: "Taavi",
+  palk: 10,
+  maksaPalka: function () {
+      rahakott += palk
+    }
+}
+
+let töötaja3 = { nimi: "Kalle", palk: 10}
+
+
+// skoop scope
+let rahakott = 10;
+let toottehind = 5;
+  if (rahakott >= tootehind) {
+    rahakott = rahakott - tootehind
+}
+console.log(rahakott)
+
+lühem varjant
+let rahakott = 10;
+let toottehind = 5;
+  if (rahakott >= tootehind) {
+    //rahakott -= tootehind
+}
+console.log(rahakott)
+
+function summa() {
+    console.log(7+5)
+}
+
+let summa = function () {
+    
+}
+
+// typeof millega saab teada ,mis tüüpi info seal muutuja sees on
+
+// primitive types:
+// number string boolean object function undefined null
+// user defined types:
+// Math
+
+/*
+  Latlal on kolm teperatuurivahemikku
+  0-20 on liiga külm
+  21-40 on paras temperatuur
+  41-60 on liiga külm
+/*
+function checkTemp () {
+  let temp = 5;
+}
+
