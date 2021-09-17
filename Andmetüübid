@@ -75,3 +75,17 @@ if ( temp >= 21 && temp <= 40 ) {
 }
 käivitamiseks checkTemp(mingi number)
 
+let tahateada = prompt("mis vanus")
+let et = [10,12,15,12,13,15,11];
+console.log(kuu+"tarbimine"+et[tahaTeada-1]);
+
+if(tahaTeada == 1)
+  kuu = "Jaanuar"
+  
+  let tahaTeada = prompt("mis vanus?")
+let et = [10,12,15,12,13,15,11];
+let kuu = ["","Jaanuar","Veebruar","Märts","Aprill"];
+console.log(kuu[4]+" tarbimine on "+et[tahaTeada]);
+
+// Array [] lugemine hakkab nullist
+// object []
