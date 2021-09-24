@@ -1,0 +1,58 @@
+CRUD
+Create
+Read
+Update
+Delete
+
+["test",2,3,null]
+console.log([])
+let list = ["test",2,3,null]
+// Read
+list[0] // "test"
+list[1] // "2"
+list[2] // "3"
+list[3] // "4"
+list[4] // "null"
+list[5] // "undefined"
+
+list.lenght // mitu elementi listis on
+// viimane element
+list-1    // undefined
+// eelviimane element
+list    // null
+//kuidas leida array sees element
+// tagastab kus positsioomil element arrays om
+// esimene number on positsioon/index
+// teine number on mitu ära kustutada
+// kolmas, neljas, viies jne on mida element arrays on
+// -1 tähendab et ei ole arrays
+
+fruits.indexOf ("pear") // -1
+fruits.indexOf ("apple") // 2
+fruits.indexOf ("banana") // 3
+
+fruits.includes ("pear") // false
+list.filter(elem => elem > 0) // 2,3
+
+//#region read
+// Update
+// Delete
+
+// Array CRUD (list, massiiv, array)
+//#region Create
+//#Region Read
+//#region Update
+
+fruits.push("kiwi")
+fruits[4] = "watermelon"
+list[4] = "not null"
+fruit[5-1]
+
+// leida array sees element
+// indexOf kus positsioonil element arrays on 
+// -1 on et ei ole arrays
+
+fruits[fruits.length -1]
+fruits[ 4 ]
+
+
