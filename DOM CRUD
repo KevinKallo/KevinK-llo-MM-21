@@ -1,0 +1,15 @@
+// create
+let element = document.createElement("li")
+element.append(element)
+document.body.append(element)
+let li = document.createElement("li")
+document.body.append(li)
+li.append("test2")
+
+// read
+document.querySelector(".red") // <li class=
+document.querySelectorAll("red")
+
+// Update
+element.className = "green" // vahetab elemendi klassi nime<
+// Delete
