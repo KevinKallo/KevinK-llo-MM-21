@@ -42,3 +42,5 @@ for (let i = 0; i < arr.length; i++) {
 console.log(onSuuremKuiNeli + "Numbrit on suure kui 4")
     console.log((arr.length - onSuuremKuiNeli) + "Numbrit on väiksemad")
 
+arr.find(f => f.startsWith(""))
+
