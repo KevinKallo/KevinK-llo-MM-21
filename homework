@@ -6,10 +6,3 @@ function countCode(letter) {
       return countCode.length;
 }
 
-for ( let i=1; i<=1000; i++) {          1 - 50
-  console.log(i)
-}
-
-for (i=50; i>=1; i--) {                 50 - 1
-    console.log(i)
-}
