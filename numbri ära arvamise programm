@@ -1,1 +1,16 @@
-
+let suvaline = Math.floor(Math.random()*10)
+if (prompt("Sisesta number")== suvaline)
+    console.log("Õige number")
+else 
+    console.log("Vale number")
+    
+    
+let vastus = Math.floor(Math.random()*10)
+    console.log(vastus)
+pakkumine=prompt("Sisesta number")
+if(pakkumine == vastus)
+    console.log("Õige number")
+else if(pakkumine==vastus - 1 || pakkumine==vastus +1) 
+    console.log("Ai, sa oled väga ligidal")
+else 
+    console.log("Vale number")
